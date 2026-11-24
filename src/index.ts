@@ -1,3 +1,5 @@
+export * from "./mesh.js";
+
 export interface PeerNode {
   id: string;
   name: string;
