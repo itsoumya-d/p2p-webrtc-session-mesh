@@ -1,0 +1,26 @@
+{
+  "name": "p2p-webrtc-session-mesh",
+  "version": "0.1.0",
+  "description": "Peer-to-peer WebRTC session mesh, local-first message ordering, and connection pooling for distributed apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "p2p",
+    "webrtc",
+    "local-first",
+    "peer-to-peer",
+    "mesh",
+    "distributed-systems"
+  ],
+  "author": "Soumya Debnath",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
